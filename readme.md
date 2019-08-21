@@ -5,6 +5,7 @@
 
 
 ## ph / f - Problematik - Mapping Filter - char_filter
+http://xxxxxxxxxxxxx/elasticsearch/meinindex
 Einen Index mit _put anlegen:
 ```javascript
 {
@@ -33,6 +34,7 @@ Einen Index mit _put anlegen:
 ```
 
 Dann kann z.B über einen Analyser ausgewertet werden:
+http://xxxxxxxxxxxxx/elasticsearch/meinindex/_analyze
 ```javascript
 {
   "analyzer": "mein_analyzer",
